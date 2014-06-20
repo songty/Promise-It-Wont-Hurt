@@ -1,0 +1,25 @@
+{
+  "name": "Promise-It-Wont-Hurt",
+  "version": "0.1.0",
+  "description": "Promise Lesson",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/songty/Promise-It-Wont-Hurt.git"
+  },
+  "keywords": [
+    "Promise"
+  ],
+  "author": "Tian Song",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/songty/Promise-It-Wont-Hurt/issues"
+  },
+  "homepage": "https://github.com/songty/Promise-It-Wont-Hurt",
+  "dependencies": {
+    "q": "^1.0.1"
+  }
+}
