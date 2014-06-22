@@ -14,14 +14,14 @@ function all(p1, p2) {
 		if (counter === 2) {
 			defer.resolve([v1, v2]);
 		} 
-	}.then(null, defer.reject));
+	});
 	p2.promise.then(function(v) {
 		counter ++;
 		v2 = v;
 		if (counter === 2) {
 			defer.resolve([v1, v2]);
 		}
-	}.then(null, defer.reject));
+	});
 	return defer.promise;
 }
 setTimeout(function(){
